@@ -48,8 +48,8 @@ class Manzil:
         manzil = f"{self.viloyat} viloyati {self.tuman} tumani {self.kocha} kocahsi {self.uy}-uy"
         return manzil
 
-    # def __str__(self):
-    #     return f"{self.ismi} {self.familiya} {self.tyil} da tug'ilgan. Passport :{self.passport}, ID : {self.id} ,  {self.manzil}"
+    def __str__(self):
+        return f"{self.ismi} {self.familiya} {self.tyil} da tug'ilgan. Passport :{self.passport}, ID : {self.id} ,  {self.manzil}"
 
 talaba1 = Talaba('ali', 'vali', 'ac4621', 2005, 321321321)
 print(talaba1.get_fulname())
