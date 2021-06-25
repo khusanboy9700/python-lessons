@@ -51,9 +51,9 @@ class Manzil:
     # def __str__(self):
     #     return f"{self.ismi} {self.familiya} {self.tyil} da tug'ilgan. Passport :{self.passport}, ID : {self.id} ,  {self.manzil}"
 
-# talaba1 = Talaba('ali', 'vali', 'ac4621', 2005, 321321321)
-# print(talaba1.get_fulname())
-# print(talaba1)
+talaba1 = Talaba('ali', 'vali', 'ac4621', 2005, 321321321)
+print(talaba1.get_fulname())
+print(talaba1)
 
 abit1_manzil = Manzil('Andijon', 'Baliqchi', 'sharafli', 18)
 abit1 = Abituriyent('alisher', 'valijon', 'SC2353', 1995, 53, 'futboll', abit1_manzil)
